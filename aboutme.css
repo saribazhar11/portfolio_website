@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  color: #333;
+}
+
+header {
+  background-color: #444;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.bio, .skills {
+  margin-bottom: 2rem;
+}
+
+.skills ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
